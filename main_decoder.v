@@ -1,4 +1,4 @@
-module main_decoder(op, zero, PCSrc, RsultSrc, MemWrite, ALUSrc, ImmSrc, RegWrite, ALUOp);
+module main_decoder(op, zero, PCSrc, ResultSrc, MemWrite, ALUSrc, ImmSrc, RegWrite, ALUOp);
 	
 	// input, output declaration
 	input [6:0] op;
