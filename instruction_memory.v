@@ -10,4 +10,8 @@ module Instr_Mem(A, RD, reset);
 	//assign keyword used for wire data types for continuous assignement in combinational circuit; inherently non-blocking; blocking/non- blocking in sequential
 	assign RD = (!reset) ? Mem[A[31:2]] : 32'h00000000;
 	
+	initial begin
+		Mem[0] = 32'hFFC4A303;
+	end
+	
 endmodule

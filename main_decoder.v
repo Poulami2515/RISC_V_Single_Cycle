@@ -1,13 +1,13 @@
-module main_decoder(op, zero, PCSrc, ResultSrc, MemWrite, ALUSrc, ImmSrc, RegWrite, ALUOp);
+module main_decoder(op, zero, PCSrc, ResultSrc, MemWrite, ALUSrc, ImmSrc, RegWrite, ALUOp, branch);
 	
 	// input, output declaration
 	input [6:0] op;
-	input zero;
+	input zero, branch;
 	output [1:0] ImmSrc, ALUOp;
 	output PCSrc, ResultSrc, MemWrite, ALUSrc, RegWrite;
 	
 	//interim wires
-	wire branch;
+	//wire branch;
 	
 	assign RegWrite = ((op == 7'b0000011) || (op == 7'b0110011)) ? 1'b1 : 1'b0;
 	assign MemWrite = (op == 7'b0100011) ? 1'b1 : 1'b0;
