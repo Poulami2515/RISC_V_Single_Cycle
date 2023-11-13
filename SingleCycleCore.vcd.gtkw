@@ -1,0 +1,83 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Nov 13 06:24:40 2023
+[*]
+[dumpfile] "/home/poulami/Desktop/Projects/RISCV_Single_Cycle_Core/SingleCycle.vcd"
+[dumpfile_mtime] "Mon Nov 13 06:02:11 2023"
+[dumpfile_size] 3941
+[savefile] "/home/poulami/Desktop/Projects/RISCV_Single_Cycle_Core/SingleCycleCore.vcd.gtkw"
+[timestart] 0
+[size] 1846 1009
+[pos] -101 -101
+*-7.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Single_Cycle_Top_tb.
+[treeopen] Single_Cycle_Top_tb.DUT.
+[treeopen] Single_Cycle_Top_tb.DUT.CUModule.
+[sst_width] 261
+[signals_width] 180
+[sst_expanded] 1
+[sst_vpaned_height] 279
+@28
+Single_Cycle_Top_tb.clk
+Single_Cycle_Top_tb.reset
+@200
+-
+@23
+Single_Cycle_Top_tb.DUT.PCModule.PC[31:0]
+@22
+Single_Cycle_Top_tb.DUT.PCModule.PCNext[31:0]
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.InModule.A[31:0]
+Single_Cycle_Top_tb.DUT.InModule.RD[31:0]
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.PAModule.a[31:0]
+Single_Cycle_Top_tb.DUT.PAModule.b[31:0]
+Single_Cycle_Top_tb.DUT.PAModule.c[31:0]
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.ExModule.In[31:0]
+Single_Cycle_Top_tb.DUT.ExModule.Imm_Ext[31:0]
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.RegModule.A1[4:0]
+Single_Cycle_Top_tb.DUT.RegModule.A2[4:0]
+Single_Cycle_Top_tb.DUT.RegModule.A3[4:0]
+Single_Cycle_Top_tb.DUT.RegModule.RD1[31:0]
+Single_Cycle_Top_tb.DUT.RegModule.RD2[31:0]
+@28
+Single_Cycle_Top_tb.DUT.RegModule.WE3
+@22
+Single_Cycle_Top_tb.DUT.RegModule.WD3[31:0]
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.ALUModule.A[31:0]
+Single_Cycle_Top_tb.DUT.ALUModule.B[31:0]
+@28
+Single_Cycle_Top_tb.DUT.ALUModule.ALUControl[2:0]
+@22
+Single_Cycle_Top_tb.DUT.ALUModule.Result[31:0]
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.CUModule.op[6:0]
+@28
+Single_Cycle_Top_tb.DUT.CUModule.func3[2:0]
+Single_Cycle_Top_tb.DUT.CUModule.ALUControl[2:0]
+Single_Cycle_Top_tb.DUT.CUModule.RegWrite
+@200
+-
+@22
+Single_Cycle_Top_tb.DUT.dataModule.A[31:0]
+Single_Cycle_Top_tb.DUT.dataModule.RD[31:0]
+Single_Cycle_Top_tb.DUT.dataModule.WD[31:0]
+@28
+Single_Cycle_Top_tb.DUT.dataModule.WE
+[pattern_trace] 1
+[pattern_trace] 0
